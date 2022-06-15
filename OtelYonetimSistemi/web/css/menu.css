@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.Şub.2022, 10:37:26
+    Author     : Mehmet NARMAN
+*/
+
+.conteiner{
+    width: 85vw;
+    height: 60px;
+    background-color: rgba(149, 165, 166, 0.5);
+    z-index: -1;
+    margin: auto;
+    text-align: center;
+}
+.logo, .anasayfa, .dropdown1, .dropdown2, .iletisim{
+    width: 15%;
+    height: 100%;
+    line-height: 60px;
+    display: inline-block;
+}
+.listeYenile{
+    width: 15%;
+    height: 100%;
+    line-height: 60px;
+}
+.logo:hover, .anasayfa:hover, .dropdown1:hover, .dropdown2:hover, .iletisim:hover, .listeYenile:hover{
+    background-color: rgba(149, 165, 166, 1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dropbtn1, .dropbtn2{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.dropdown-content1, .dropdown-content2{
+    position: absolute;
+    margin-top: 1px;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    height: 180px;
+    width: 12.75%;
+    display: none;
+    z-index: 1;
+
+}
+.dropdown-content1>a, .dropdown-content2>a{
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: rgba(149, 165, 166, 0.5);
+}
+
+.dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown-content1 a:hover, .dropdown-content2 a:hover{
+    background-color: rgba(149, 165, 166, 1);
+}

@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.May.2022, 14:45:42
+    Author     : Mehmet NARMAN
+*/
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177,204,235);
+}
+
+#kira{
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    height: 650px;
+    border: 1px solid black;
+    background-color: rgba(255,255,255, 0.5);
+}
+
+#yazi{
+    margin-left: 38%;
+}
+input[type="submit"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 38%;
+    font-size: 1vw;
+}

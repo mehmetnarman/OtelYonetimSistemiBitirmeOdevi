@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31.May.2022, 15:44:54
+    Author     : Mehmet NARMAN
+*/
+
+body{
+    background-color: rgb(177,204,235);
+}
+
+.genelAlan{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.tablo{
+    margin-top: 100px;
+    position: absolute;
+    border: 3px solid rgba(149, 165, 166, 1);
+    width: 100%;
+}
+.sil{
+    background-color: rgba(149, 165, 166, 1);
+    width: 100px;
+}
+.anatd{
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+}

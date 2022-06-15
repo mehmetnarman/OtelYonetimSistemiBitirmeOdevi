@@ -1,0 +1,113 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.fotograf{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 755px;
+    z-index: -2;
+}
+.fotograf img{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    opacity: 0.5;
+    border-bottom: 3px solid rgb(44, 62, 80);
+}
+
+.tarihler{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    height: 250px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgba(149, 165, 166, 0.5);
+    z-index: 1;
+}
+.tarihler form div{
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    margin-left: 3vw;
+    margin-top: auto;    
+}
+.girisTarihi, .cikisTarihi{
+    line-height: 100px;
+}
+
+.tarihler form label{
+    color: black;
+    font-size: 2vw;
+}
+
+input[type="submit"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 5vw;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 3vw;
+    font-size: 1vw;
+}
+.hr1{
+    margin-top: 1vw;
+    border: 1px solid rgb(44, 62, 80);
+    opacity: 0.7;
+}
+.odaFotograf{
+    position: relative;
+    margin: auto;
+    margin-top: 140px;
+    z-index: 1;
+    width: 85%;
+    height: 400px;
+    background-color: white;
+}
+.standart {
+    position: relative;
+    z-index: 1;
+    width: 30%;
+    height: 85%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.standartYazi {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+.standartYazi p{
+    position: relative;
+    z-index: 1;
+}
+.standartYazi img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+body > #foot{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    z-index: 1;
+}

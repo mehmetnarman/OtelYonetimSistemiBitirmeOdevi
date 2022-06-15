@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.Şub.2022, 13:22:27
+    Author     : Mehmet NARMAN
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(149, 165, 166, 0.5);
+}
+#alan{
+    position: relative;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+#ana{
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    left: 30px;
+    text-align: center;
+}
+#oda{
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    right: 30px;
+    text-align: center;
+}
+#oda > a{
+    display: block;
+}
+#phone{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+}
+#phone>p,#phone>img{
+    position: relative;
+    display: inline-block;
+}
+#desing{
+    position: relative;
+    bottom: 3px;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    color: white;
+    background-color: #34495e;
+}
+#adres{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 24%;
+    height: 80%;
+    text-align: center;
+}
